@@ -128,9 +128,14 @@ header a:hover{
     border-color: #e8491d;
     border-width: 6px;
     border-style:solid;
-    border-radius: 50%
+    border-radius: 50%;
+    filter: blur(0.8px) grayscale(50%);
     
 }
+#orbs .element img:hover{
+    filter: none;
+}
+
 #orbs .element h3{
     font-weight: bold;
     color:#333333;
